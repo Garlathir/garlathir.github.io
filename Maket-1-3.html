@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>CPS</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="navigation">
+     <a class="navigation-menu navigation__item"> <img src="img/burger.svg" alt="Меню"></a>
+     <a class="navigation-logo navigation__item"> <img src="img/Group.svg" alt="Лого"></a>
+     <a class="navigation-repair navigation__item"> <img src="img/repair.svg" alt="Ремонт"></a>
+     <a class="navigation-status navigation__item"> <img src="img/checkstatus.svg" alt="Статус"></a>
+     <a class="navigation-call navigation__item"> <img src="img/call.svg" alt="Связь"></a>
+     <a class="navigation-chat navigation__item"> <img src="img/chat.svg" alt="Чат"></a>
+     <a class="navigation-profile navigation__item"> <img src="img/profile.svg" alt="Профиль"></a>
+    </nav>
+  </header>
+    <main class="content">
+        <div class="h1-block">
+        <h1 class="content-h1">Услуги и сервисы</h1>
+        <button class="repair-button buttons">Оставить заявку</button>
+        <button class="status-button buttons">Статус ремонта</button>
+        </div>
+    <nav class="content-buttons">
+    <a class="content__button-item content__button--bordered">Ремонтируемые бренды</a>
+    <a class="content__button-item content__button--bordered">Ремонтируемые устройства</a>
+    <a class="content__button-item content__button--bordered">Дополнительные услуги</a>
+    <a class="content__button-item content__button--bordered">Цены на услуги</a>
+    <a class="content__button-item content__button--bordered">Адреса сервисных центров</a>
+    <a class="content__button-item content__button--bordered">Специальные цены</a>
+    <a class="content__button-item content__button--bordered">Отзывы</a>
+    </nav>
+    <div class="content-block">
+    <picture class="picture">
+        <source srcset="img/picture320.jpg" media="(max-width: 767px)">
+        <source srcset="img/picture768.jpg" media="(max-width: 1119px)">
+        <source srcset="img/picture1120.jpg" media="(min-width: 1120px)">
+        <img class="picture__image" src="img/Picture%20CPS.jpg" alt="CPS">
+    </picture>
+        <p class="content__paragraph">
+            Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+        </p>
+        <p class="content__paragraph">
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
+            <span class="content__paragraph--tablet-hidden">
+                , что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+            </span>
+        </p>
+        <label class="content-spoiler">
+            <button class="content-spoiler--icon"></button>
+            <span>Читать далее</span>
+        </label>
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "TT Lakes";
+    src: url("fonts/TTLakes-Regular.woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TT Lakes";
+    src: url("fonts/TTLakes-Medium.woff");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TT Lakes";
+    src: url("fonts/TTLakes-Bold.woff");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 768px;
+    min-height: 1024px;
+    font-family: "TT Lakes", sans-serif;
+    margin: 0;
+}
+
+.side-menu {
+    max-width: 320px;
+    box-shadow: 5px 0 40px #e5e5e5;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    padding-top: 18px;
+    margin-bottom: 46px;
+}
+
+.logo {
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.search-button {
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+.buttons {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    transition: 500ms;
+    scale: 1.2;
+}
+.buttons:not(:hover) {
+    transition: 500ms;
+}
+
+.main-menu {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0 0 268px;
+}
+
+.main-menu__item {
+    padding-left: 24px;
+    margin-top: 28px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+
+.main-menu__item:hover {
+    background-image: url("data:image/svg+xml,%3Csvg width='4' height='32' viewBox='0 0 4 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 4C4 1.79086 2.20914 0 0 0V32C2.20914 32 4 30.2091 4 28V4Z' fill='%2341F6D7'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: left;
+    color: #7E7E82;
+    margin-bottom: 20px;
+}
+
+.contact {
+    margin-left: 24px;
+    margin-bottom: 16px;
+}
+
+.contact-buttons {
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.contact-buttons:last-child {
+    margin-right: auto;
+}
+
+.email {
+    display: inline-block;
+    margin-left: 24px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.phone-number {
+    margin-left: 24px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.language {
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+
+.language__item {
+    font-family: "TT Lakes", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.language__item:focus {
+    color: #7E7E82;
+}

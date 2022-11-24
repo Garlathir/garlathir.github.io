@@ -1,39 +1,120 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="block4.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="block4.css" />
     <title>Side menu</title>
-</head>
-<body>
- <div class="side-menu">
-     <div class="navigation">
-     <button class="cross-button buttons"><img class="cross-button__img" src="img/cross.svg" alt="Закрыть"></button>
-     <a class="logo"> <img class="logo__img" src="img/Group.svg" alt="Лого"></a>
-     <button class="search-button buttons"><img class="search-button__img" src="img/search.svg" alt="Поиск"></button>
-     </div>
-     <ul class="main-menu">
-         <li class="main-menu__item">Ремонт техники</li>
-         <li class="main-menu__item">Услуги и сервисы</li>
-         <li class="main-menu__item">Корпоративным клиентам</li>
-         <li class="main-menu__item">Продавцам техники</li>
-         <li class="main-menu__item">Партнерам</li>
-         <li class="main-menu__item">Производителям</li>
-         <li class="main-menu__item">Наши сервисные центры</li>
-         <li class="main-menu__item">Контакты</li>
-     </ul>
-     <div class="contact">
-        <a class="call-button contact-buttons buttons"> <img class="call-button__img" src="img/call.svg" alt="Связь"></a>
-        <a class="сhat-button contact-buttons buttons"> <img class="сhat-button__img" src="img/chat.svg" alt="Чат"></a>
-         <a class="profile-button contact-buttons buttons"><img class="profile-button__img" src="img/profile.svg" alt="Профиль"></a>
-     </div>
-     <a class="email" href="mailto:mail@cps.com">mail@cps.com</a>
-     <div class="phone-number">8 900 890 8900</div>
-     <div class="language">
-         <button class="language__item">RU</button>
-         <button class="language__item">EN</button>
-         <button class="language__item">CH</button>
-     </div>
- </div>
-</body>
+  </head>
+  <body>
+    <div class="side-menu">
+      <div class="navigation">
+        <button
+          class="cross-button buttons"
+          aria-label="Закрыть"
+          title="Закрыть"
+        >
+          <img class="cross-button__img" src="img/cross.svg" alt="Закрыть" />
+        </button>
+        <a class="logo" href="#" aria-label="Лого">
+          <img class="logo__img" src="img/Group.svg" alt="Лого"
+        /></a>
+        <button
+          class="search-button buttons"
+          aria-label="Поиск"
+          title="Найти на сайте"
+        >
+          <img class="search-button__img" src="img/search.svg" alt="Поиск" />
+        </button>
+      </div>
+      <ul class="main-menu">
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" aria-label>Ремонт техники</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" aria-label>Услуги и сервисы</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" aria-label
+            >Корпоративным клиентам</a
+          >
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" aria-label>Продавцам техники</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" aria-label>Партнерам</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" aria-label>Производителям</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" aria-label
+            >Наши сервисные центры</a
+          >
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" aria-label>Контакты</a>
+        </li>
+      </ul>
+      <div class="contact">
+        <button
+          class="call-button contact-buttons buttons"
+          aria-label="Связь"
+          title="Связаться с нами"
+        >
+          <img class="call-button__img" src="img/call.svg" alt="Связь" />
+        </button>
+        <button
+          class="сhat-button contact-buttons buttons"
+          aria-label="Чат"
+          title="Чат"
+        >
+          <img class="сhat-button__img" src="img/chat.svg" alt="Чат" />
+        </button>
+        <button
+          class="profile-button contact-buttons buttons"
+          aria-label="Профиль"
+          title="Перейти в профиль"
+        >
+          <img
+            class="profile-button__img"
+            src="img/profile.svg"
+            alt="Профиль"
+          />
+        </button>
+      </div>
+      <a class="email" href="mailto:mail@cps.com" aria-label="Электронная почта"
+        >mail@cps.com</a
+      >
+      <a
+        href="tel:8 900 890 8900"
+        class="phone-number"
+        aria-label="Номер телефона"
+        >8 900 890 8900</a
+      >
+      <span class="language">
+        <button
+          class="language__item"
+          aria-label="Русский"
+          title="Сменить язык"
+        >
+          RU
+        </button>
+        <button
+          class="language__item"
+          aria-label="Английский"
+          title="Сменить язык"
+        >
+          EN
+        </button>
+        <button
+          class="language__item"
+          aria-label="Китайский"
+          title="Сменить язык"
+        >
+          CH
+        </button>
+      </span>
+    </div>
+  </body>
 </html>

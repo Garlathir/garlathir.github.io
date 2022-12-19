@@ -4,4 +4,6 @@ new Swiper(".image-slider", {
     clickable: true,
   },
   slidesPerView: 1.2,
+  direction: "horizontal",
+  spaceBetween: 1,
 });

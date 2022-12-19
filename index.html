@@ -2,124 +2,167 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="block4.css" />
-    <title>Side menu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="block5.css" />
+    <title>Swiper</title>
   </head>
   <body>
-    <div class="side-menu">
-      <div class="navigation">
-        <button
-          class="cross-button buttons"
-          aria-label="Закрыть"
-          title="Закрыть"
-        >
-          <img class="cross-button__img" src="img/cross.svg" alt="Закрыть" />
-        </button>
-        <a class="logo" href="#" aria-label="Лого">
-          <img class="logo__img" src="img/Group.svg" alt="Лого"
-        /></a>
-        <button
-          class="search-button buttons"
-          aria-label="Поиск"
-          title="Найти на сайте"
-        >
-          <img class="search-button__img" src="img/search.svg" alt="Поиск" />
-        </button>
-      </div>
-      <ul class="main-menu">
-        <li class="main-menu__item">
-          <a class="main-menu__link" href="#" aria-label>Ремонт техники</a>
-        </li>
-        <li class="main-menu__item">
-          <a class="main-menu__link" href="#" aria-label>Услуги и сервисы</a>
-        </li>
-        <li class="main-menu__item">
-          <a class="main-menu__link" href="#" aria-label
-            >Корпоративным клиентам</a
-          >
-        </li>
-        <li class="main-menu__item">
-          <a class="main-menu__link" href="#" aria-label>Продавцам техники</a>
-        </li>
-        <li class="main-menu__item">
-          <a class="main-menu__link" href="#" aria-label>Партнерам</a>
-        </li>
-        <li class="main-menu__item">
-          <a class="main-menu__link" href="#" aria-label>Производителям</a>
-        </li>
-        <li class="main-menu__item">
-          <a class="main-menu__link" href="#" aria-label
-            >Наши сервисные центры</a
-          >
-        </li>
-        <li class="main-menu__item">
-          <a class="main-menu__link" href="#" aria-label>Контакты</a>
-        </li>
-      </ul>
-      <footer class="footer">
-        <div class="contact">
-          <button
-            class="call-button contact-buttons buttons"
-            aria-label="Связь"
-            title="Связаться с нами"
-          >
-            <img class="call-button__img" src="img/call.svg" alt="Связь" />
-          </button>
-          <button
-            class="сhat-button contact-buttons buttons"
-            aria-label="Чат"
-            title="Чат"
-          >
-            <img class="сhat-button__img" src="img/chat.svg" alt="Чат" />
-          </button>
-          <button
-            class="profile-button contact-buttons buttons"
-            aria-label="Профиль"
-            title="Перейти в профиль"
-          >
-            <img
-              class="profile-button__img"
-              src="img/profile.svg"
-              alt="Профиль"
-            />
-          </button>
+    <div class="tech-repair">
+      <h6 class="tech-repair__header">
+        РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ<br class="tech-repair__header-mobile" />
+        БРЕНДОВ
+      </h6>
+      <!-----------------------------Слайдер----------------------------------------------->
+      <div class="tech-repair__swiper">
+        <div class="image-slider swiper-container">
+          <div class="image-slider__wrapper swiper-wrapper">
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <a href="#" aria-label="" class="image-slider__button">
+                  <img src="img/Lenovo.png" alt="Lenovo" />
+                  <span class="image-slider__go"></span>
+                </a>
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <a href="#" class="image-slider__button">
+                  <img src="img/Samsung.png" alt="Samsung" />
+                  <span class="image-slider__go"></span>
+                </a>
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <a href="#" aria-label="" class="image-slider__button">
+                  <img src="img/Apple.png" alt="Apple" />
+                  <span class="image-slider__go"></span>
+                </a>
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <a href="#" aria-label="" class="image-slider__button">
+                  <img src="img/ViewSonic.png" alt="ViewSonic" />
+                  <span class="image-slider__go"></span>
+                </a>
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <a href="#" aria-label="" class="image-slider__button">
+                  <img src="img/Bosch.png" alt="Bosch" />
+                  <span class="image-slider__go"></span>
+                </a>
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <a href="#" aria-label="" class="image-slider__button">
+                  <img src="img/hp.png" alt="Hewlett-Packard" />
+                  <span class="image-slider__go"></span>
+                </a>
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <a href="#" aria-label="" class="image-slider__button">
+                  <img src="img/Acer.png" alt="Acer" />
+                  <span class="image-slider__go"></span>
+                </a>
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <a href="" aria-label="" class="image-slider__button">
+                  <img src="img/Sony.png" alt="Sony" />
+                  <span class="image-slider__go"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
+      </div>
+      <!----------------------------------Список компаний-------------------------------------------->
+      <div class="tech-repair__company-list">
+        <a href="#" aria-label="" class="tech-repair__company">
+          <img src="img/Lenovo.png" alt="Lenovo" />
+          <span class="image-slider__go"></span>
+        </a>
+        <a href="#" aria-label="" class="tech-repair__company">
+          <img src="img/Samsung.png" alt="Samsung" />
+          <span class="image-slider__go"></span>
+        </a>
+        <a href="#" aria-label="" class="tech-repair__company">
+          <img src="img/Apple.png" alt="Apple" />
+          <span class="image-slider__go"></span>
+        </a>
+        <a href="#" aria-label="" class="tech-repair__company">
+          <img src="img/Bosch.png" alt="Bosch" />
+          <span class="image-slider__go"></span>
+        </a>
+        <a href="#" aria-label="" class="tech-repair__company">
+          <img src="img/hp.png" alt="Hewlett-Packard" />
+          <span class="image-slider__go"></span>
+        </a>
+        <a href="#" aria-label="" class="tech-repair__company">
+          <img src="img/Acer.png" alt="Acer" />
+          <span class="image-slider__go"></span>
+        </a>
         <a
-          class="email"
-          href="mailto:mail@cps.com"
-          aria-label="Электронная почта"
-          >mail@cps.com</a
+          href="#"
+          aria-label=""
+          class="tech-repair__company tech-repair__company--hidden768"
         >
+          <img src="img/ViewSonic.png" alt="ViewSonic" />
+          <span class="image-slider__go"></span>
+        </a>
         <a
-          href="tel:8 900 890 8900"
-          class="phone-number"
-          aria-label="Номер телефона"
-          >8 900 890 8900</a
+          href="#"
+          aria-label=""
+          class="tech-repair__company tech-repair__company--hidden768"
         >
-        <span class="language">
-          <button
-            class="language__item"
-            aria-label="Русский"
-            title="Сменить язык"
-          >
-            RU
-          </button>
-          <button
-            class="language__item"
-            aria-label="Английский"
-            title="Сменить язык"
-          >
-            EN
-          </button>
-          <button
-            class="language__item"
-            aria-label="Китайский"
-            title="Сменить язык"
-          >
-            CH
-          </button>
-        </span>
-      </footer>
+          <img src="img/Sony.png" alt="Sony" />
+          <span class="image-slider__go"></span>
+        </a>
+        <a
+          href="#"
+          aria-label=""
+          class="tech-repair__company tech-repair__company--hidden"
+        >
+          <img src="img/Lenovo.png" alt="Lenovo" />
+          <span class="image-slider__go"></span>
+        </a>
+        <a
+          href="#"
+          aria-label=""
+          class="tech-repair__company tech-repair__company--hidden"
+        >
+          <img src="img/Samsung.png" alt="Samsung" />
+          <span class="image-slider__go"></span>
+        </a>
+        <a
+          href="#"
+          aria-label=""
+          class="tech-repair__company tech-repair__company--hidden"
+        >
+          <img src="img/Apple.png" alt="Apple" />
+          <span class="image-slider__go"></span>
+        </a>
+      </div>
+      <!-- Кнопка спойлер-->
+      <label class="content-spoiler">
+        <span class="content-spoiler__icon"></span>
+        <button class="content-spoiler__button">Показать все</button>
+      </label>
+      <!--Скрипты-->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script src="swiper.js"></script>
+      <script src="spoiler.js"></script>
     </div>
   </body>
 </html>
